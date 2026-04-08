@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base theme -->
+    <style name="Base.Theme.Assignment_1" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary (accent) -->
+        <item name="colorSecondary">@color/accent</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/background</item>
+
+    </style>
+
+    <!-- App theme -->
+    <style name="Theme.Assignment_1" parent="Base.Theme.Assignment_1" />
+
+</resources>
